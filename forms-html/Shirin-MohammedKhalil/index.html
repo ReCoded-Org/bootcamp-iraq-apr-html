@@ -46,12 +46,12 @@
 
       <!-- Volume-->
       <p>Volume (between 0 and 50):</p>
-      <input type="range" name="volume" min="0" max="50" /> <br />
+      <input type="range" name="volume" min="0" max="50" value="50" /> <br />
 
       <!-- Radio-->
       <label for="radio"> Radio</label>
       <br />
-      <input type="radio" id="male" name="gender" value="male" />
+      <input type="radio" id="male" name="gender" value="male" checked />
       <label for="male">Male</label><br />
       <input type="radio" id="female" name="gender" value="female" />
       <label for="female">Female</label><br />
@@ -61,7 +61,7 @@
       <!-- Checkbox-->
       <p>Checkbox</p>
       <br />
-      <input type="checkbox" id="bike" name="bike" value="bike" />
+      <input type="checkbox" id="bike" name="bike" value="bike" checked />
       <label for="bike">I have a bike</label><br />
       <input type="checkbox" id="car" name="car" value="car" />
       <label for="car">I have a Car</label><br />
@@ -82,13 +82,22 @@
       <!-- 1980 > Date-->
       <p>Enter a date before 1980-01-01:</p>
       <br />
-      <input type="date" name="date" max="1980-01-01" /><br />
+      <input
+        type="date"
+        name="date"
+        max="1980-01-01"
+        placeholder="12/11/1979"
+      /><br />
 
       <!-- Birthday-->
       <p>Date and Time</p>
       <br />
       <p>Birthday (date and name):</p>
-      <input type="datetime-local" name="birthday" />
+      <input
+        type="datetime-local"
+        name="birthday"
+        placeholder="04-15-2020, 04:12 PM"
+      />
       <br />
 
       <!-- Submit-->
