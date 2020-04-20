@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+<form action="action_page.php" method="POST">
+    <br>
+    <label for="email">enter your email</label><br>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required><br><br>
+
+    <label for="uname">username</label><br>
+    <input type="text" placeholder="Enter username" name="uname" id="uname" required><br><br>
+
+    <label for="pass">Password</label><br>
+    <input type="password" placeholder="Password" name="pass" id="pass" required><br><br>
+
+   <label for="quantity">Quantity (between 1 and 5):</label><br>
+    <input type="number" id="quantity" name="quantity" min="1" max="5"
+    placeholder="3"><br><br>
+
+    <label for="valume">Valume ( between 0 and 50)</label><br>
+    <input type="range" min="0" max="50" id="valume" name="valume"><br><br>
+
+    <label>button</label><br>
+    <button type="button">Click Me!</button><br><br>
+
+    <label for="favcolor">Select your favorite color:</label><br>
+    <input type="color" id="favcolor" name="favcolor" value="#FF0000"><br><br>
+
+    <p>radio</p>
+
+    <input type="radio" id="male" value="male" name="gender">
+    <label for="male">male</label><br>
+
+    <input type="radio" id="female" value="female" name="gender">
+    <label for="female">female</label><br>
+
+    <input type="radio" id="other" value="other" name="gender">
+    <label for="other">other</label><br>
+
+    <p>checkbox</p>
+
+    <input type="checkbox" id="bike" value="bike" name="vehicle">
+    <label for="bike">I have a bike</label><br>
+
+    <input type="checkbox" id="car" value="car" name="vehicle">
+    <label for="car">I have a car</label><br>
+
+    <input type="checkbox" id="boat" value="boat" name="vehicle">
+    <label for="boat">I have a boat</label><br><br>
+   
+    <label for="date1">Enter a date before 1980-01-01:</label><br>
+    <input type="date" id="date1" name="date1" max="1980-01-01">
+
+    <p>Date and time</p>
+    <label for="birthday">Birthday ( date and time ):</label><br>
+    <input type="datetime-local" id="birthday" name="birthday" value="04-15-2020 04:12 PM"><br><br>
+
+    <label>Submit buttom</label><br>
+    <input type="submit" id="submit" value="submit"><br><br>
+    <label>Reset buttom</label><br>
+    <input type="reset" id="reset" value="reset">
+
+</form>
+
+
+</body>
+</html>
