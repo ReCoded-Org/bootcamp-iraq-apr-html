@@ -11,23 +11,42 @@
 
 <body>
 
-  <div>
+  <header>
     <h3>MY BLOG</h3>
     <p>Where my ideas manifest <br> themselves verbally!</p>
-    <p><a href="#">HOME</a><a href="#">PROJECTS</a></p>
-  </div>
-  </div>
+    <nav>
+      <ul>
+        <li>
+          <a href="#">HOME</a>
+        </li>
+        <li>
+          <a href="#">PROJECTS</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+   
+  
 
-  <div>
+ <main>
 
+   <section>
     <span>PINNED POST</span>
     <h2>First blog post</h2>
-    <img src="./avatar.png">
-    <p>By<a href="#"> Not Salah Al-Dhafteri</a> under <span>Css</span> <span>Javascript</span></p>
+
+    <figure>
+      <img src="./avatar.png">
+    </figure>
+
+    <article>
+      <p>By<a href="#"> Not Salah Al-Dhafteri</a> under <span>Css</span> <span>Javascript</span></p>
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
       book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
       more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-
+    </article>
+   </section>
+  
+   <section>
     <span>RECENT POSTS</span>
     <h2>How I go about my living day </h2>
     <img src="./avatar.png">
@@ -35,30 +54,38 @@
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
       book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
       more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-
+  
     <h2>Photos from that time when I never visited these places</h2>
-    <img src="./avatar.png">
-    <p>By<a href="#"> Not Salah Al-Dhafteri</a> under <span>Not visited places</span>
-      <div>
+    <figure>
+      <img src="./avatar.png">
+    </figure>
+    <aside>
+      <p>By<a href="#"> Not Salah Al-Dhafteri</a> under <span>Not visited places</span>
+    </aside>
+   </section>
+  
+    <div>
+      <figure>
+      <img src="./p1.png">
+      <img src="./p2.png">
+      </figure>
+      
 
-        <img src="./p1.png">
-        <img src="./p2.png">
-
-        <div>
-          <table>
-            <thead>
-              <tr>
-                <td width="100px">About</td>
-                <td width="100px">Twitter</td>
-                <td>Github</td>
-              </tr>
-            </thead>
-          </table>
-        </div>
-
-      </div>
-
-  </div>
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <td width="100px">About</td>
+              <td width="100px">Twitter</td>
+              <td>Github</td>
+            </tr>
+          </thead>
+        </table>
+      </section>
+    </div>
+    
+ </main>
+  
 </body>
 
 </html>
