@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="#">
+        <label for="email">Enter your email</label> <br>
+        <input type="email" name="email" id="email" required placeholder="name@example.com"> <br>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password"><br>
+        <label for="quantity"> Quantity (between 1 and 5)</label><br>
+        <input type="number" id="quantity" name="quantity" min="1" max="5"><br>
+        <label for="range">Volume(between 0 and 50)</label><br>
+        <input type="range" id="range" name="range"><br>
+        <br>
+        <br>
+        <p>radio</p>
+        <input type="radio" id="radio1" name="radio" value="male">
+        <label for="radio1">Male</label> <br>
+        <input type="radio" id="radio2" name="radio" value="female">
+        <label for="radio2">Female</label> <br>
+        <input type="radio" id="radio3" name="radio" value="other">
+
+        <label for="radio3">Others</label><br>
+
+
+        <p>checkbox</p>
+        <br><br>
+
+        <input type="checkbox" id="check1" name="checkbox" value="I have a bike">
+        <label for="check1"> I have a bike </label> <br>
+        <input type="checkbox" id="check2" name="checkbox" value="I have a car">
+        <label for="check2"> I have a car </label><br>
+        <input type="checkbox" id="check3" name="checkbox" value="I have a boat">
+        <label for="check3"> I have a boat </label><br>
+        <br>
+        <p>
+            button
+        </p>
+        <button>click me </button> <br>
+        <label for="color"> Select your favorite color:</label>
+        <input type="color" id="color" name="color"> <br>
+        <br>
+        <label for="birthdate"> Enter a date before 1980-01-01</label> <br>
+        <input type="date" id="birthdate" name="birthdate" max="1979-12-31"><br>
+        <p> date and time</p>
+        <label for="bday"> Birthday (date and time):</label>
+        <input type="datetime-local" id="bday" name="birthday"> <br>
+        <p>submit button</p><br>
+        <input type="submit" value="submit"> <br>
+        <p>Reset from button</p>
+        <input type="reset" value="Reset">
+        <br>
+        <br>
+        <br>
+
+
+
+    </form>
+</body>
+
+</html>
